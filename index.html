@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bookmark</title>
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
 
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap" rel="stylesheet"></head>
-<body>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <h1 class="text-center my-5">Bookmarker</h1>
 
-    
-  
     <div class="container-80 py-4 dottet-border">
       <div class="header my-1">
         <h4>
@@ -27,39 +30,51 @@
             <i class="fa-solid fa-book-bookmark me-1"></i>
             Site Name
           </label>
-          <input type="text" class="form-control w-100 text-secondary py-2 rounded-2" id="name" name="name" placeholder="Bookmark Name">
+          <input
+            type="text"
+            class="form-control w-100 text-secondary py-2 rounded-2"
+            id="name"
+            name="name"
+            placeholder="Bookmark Name"
+          />
         </div>
-  
-        
+
         <div class="input-group my-3">
           <label for="url" class="form-label fw-bold">
             <i class="fa-solid fa-link me-1"></i>
             Site URL
           </label>
-          <input type="text" class="form-control w-100 text-secondary py-2 rounded-2" id="url" name="url" placeholder="Website URL">
+          <input
+            type="text"
+            class="form-control w-100 text-secondary py-2 rounded-2"
+            id="url"
+            name="url"
+            placeholder="Website URL"
+          />
         </div>
-  
+
         <div class="input-group my-3 text-center position-relative">
-          <button onclick="addSite()" class="btn btn-submit my-2 text-white w-auto py-1 px-5 position-absolute top-50 start-50 translate-middle">Submit</button>
+          <button
+            onclick="addSite()"
+            class="btn btn-submit my-2 text-white w-auto py-1 px-5 position-absolute top-50 start-50 translate-middle"
+          >
+            Submit
+          </button>
         </div>
-  
       </div>
     </div>
-  
+
     <div class="container-80 my-3">
       <table class="bg-white w-100">
-          <tr class="text-center fw-bold border-bottom">
-            <td class="py-2">Index</td>
-            <td>Website Name</td>
-            <td>Visit</td>
-            <td>Delete</td>
-          </tr>
-  
+        <tr class="text-center fw-bold border-bottom">
+          <td class="py-2">Index</td>
+          <td>Website Name</td>
+          <td>Visit</td>
+          <td>Delete</td>
+        </tr>
       </table>
     </div>
 
-
-
-  <script src="js/script.js"></script>
-</body>
+    <script src="js/script.js"></script>
+  </body>
 </html>
